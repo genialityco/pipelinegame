@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <title>Conectados</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="canvas"></div>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/96/three.min.js"></script> -->
+  <script type="module" src="/main.js"></script>
+  <footer>
+    <div id="inforesult">
+      <!-- <div>info: <span id="result">...</span></div> -->
+      <div id="container-buttons">
+        <button id="status">Activar</button>
+        <button id="btnReiniciar">Reiniciar</button>
+        <p>position <span id="position"></span></p>
+      </div>
+    </div>
+    <div id="informacion">
+      <div>beta: <span id="betacontenedor">-</span></div>
+      <div>gamma: <span id="gammacontenedor">-</span></div>
+      <div>alpha: <span id="alphacontenedor">-</span></div>
+    </div>
+    <div id="pTextGanar" class="msgWinner animate__animated animate__bounceIn">
+      <h1>¡Ganaron!</h1>
+    </div>
+  </footer>
+</body>
+
+</html>
